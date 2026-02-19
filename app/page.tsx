@@ -86,44 +86,46 @@ export default function HomePage() {
     );
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!file) return alert("Please select a file");
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  if (!file) return alert("Please select a file");
 
-    setSelectedCaption(null);
-    setSelectedHashtags(null);
+  setSelectedCaption(null);
+  setSelectedHashtags(null);
 
-    const formData = new FormData();
-    formData.append("file", file);
-    formData.append("prompt", prompt);
-    formData.append("tone", tone);
+  const formData = new FormData();
+  formData.append("file", file);
+  formData.append("prompt", prompt);
+  formData.append("tone", tone);
 
-    try {
-      setLoading(true);
-      const res = await fetch("https://insouciantly-monumentless-lucilla.ngrok-fr/generate-caption", {
-  method: "POST",
-  body: formData,
-});
+  try {
+    setLoading(true);
 
-      if (!res.ok) {
-        const text = await res.text();
-        throw new Error(`Server error: ${res.status} - ${text}`);
-      }
+    const res = await fetch("https://postpilot-backend-o3tg.onrender.com/generate-caption", {
+      method: "POST",
+      body: formData,
+    });
 
-      const data = await res.json();
-      const newCaption = data.caption || "No caption returned";
-      setResult(newCaption);
-      setLoading(false);
-
-      const updatedHistory = [newCaption, ...history].slice(0, 10);
-      setHistory(updatedHistory);
-      localStorage.setItem("postpilot_history", JSON.stringify(updatedHistory));
-    } catch (err: any) {
-      setLoading(false);
-      console.error("Fetch error:", err);
-      alert(err.message || "Error generating caption");
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`Server error: ${res.status} - ${text}`);
     }
-  };
+
+    const data = await res.json();
+    const newCaption = data.caption || "No caption returned";
+
+    setResult(newCaption);
+    setLoading(false);
+
+    const updatedHistory = [newCaption, ...history].slice(0, 10);
+    setHistory(updatedHistory);
+    localStorage.setItem("postpilot_history", JSON.stringify(updatedHistory));
+  } catch (err: any) {
+    setLoading(false);
+    console.error("Error generating caption:", err);
+    alert(err.message || "Failed to generate caption. Check backend logs.");
+  }
+};
 
   return (
     <main className="min-h-screen flex flex-col items-center p-6 bg-gradient-to-br from-gray-50 to-gray-200 text-black">
