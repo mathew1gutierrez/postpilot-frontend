@@ -128,21 +128,21 @@ const handleSubmit = async (e: React.FormEvent) => {
 };
 
   return (
-    <main className="min-h-screen flex flex-col items-center p-6 bg-gradient-to-br from-gray-50 to-gray-200 text-black">
-      <div className="text-center mb-6">
+    <main className="min-h-screen w-full flex flex-col items-center px-4 py-6 bg-gradient-to-br from-gray-50 to-gray-200 text-black overflow-x-hidden">
+      <div className="w-full flex flex-col items-center text-center mb-6">
         <h1 className="text-4xl font-extrabold mb-2">PostPilot 🚀</h1>
         <p className="text-gray-600 font-medium">AI-powered captions that convert 🎉</p>
       </div>
 
       <form
-        className="flex flex-col gap-3 w-full max-w-5xl bg-white p-6 rounded-xl shadow-lg"
+        className="flex flex-col gap-4 w-full max-w-5xl bg-white p-4 md:p-6 rounded-xl shadow-lg"
         onSubmit={handleSubmit}
       >
         <div className="flex flex-col md:flex-row gap-6 items-start flex-wrap">
 
           {/* Image Left */}
           <div className="flex-shrink-0">
-            <div className="relative w-96 h-96 cursor-pointer" onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}>
+            <div className="relative w-full max-w-sm aspect-square cursor-pointer mx-auto" onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}>
               <input
                 type="file"
                 accept="image/*"
@@ -157,10 +157,10 @@ const handleSubmit = async (e: React.FormEvent) => {
                 <img
                   src={preview}
                   alt="Preview"
-                  className="w-96 h-96 object-cover rounded-lg border"
+                  className="w-full h-full object-cover rounded-lg border"
                 />
               ) : (
-                <div className="w-96 h-96 bg-gray-100 border rounded-lg flex items-center justify-center">
+                <div className="w-full h-full bg-gray-100 border rounded-lg flex items-center justify-center">
                   <span className="text-gray-400 font-medium">Upload Post</span>
                 </div>
               )}
