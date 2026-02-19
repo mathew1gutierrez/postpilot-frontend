@@ -141,8 +141,11 @@ const handleSubmit = async (e: React.FormEvent) => {
         <div className="flex flex-col md:flex-row gap-6 items-start flex-wrap">
 
           {/* Image Left */}
-          <div className="flex-shrink-0">
-            <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg aspect-square cursor-pointer mx-auto" onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}>
+          <div className="w-full md:flex-shrink-0 flex justify-center">
+            <div
+              className="relative w-full md:max-w-md aspect-square cursor-pointer"
+              onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}
+            >
               <input
                 type="file"
                 accept="image/*"
@@ -173,10 +176,10 @@ const handleSubmit = async (e: React.FormEvent) => {
           </div>
 
           {/* Divider */}
-          <div className="w-px bg-gray-300"></div>
+          <div className="hidden md:block w-px bg-gray-300"></div>
 
           {/* Controls Right */}
-          <div className="flex-1 flex flex-col gap-4 h-96">
+          <div className="flex-1 flex flex-col gap-4 md:h-96 w-full">
             <p className="font-medium text-gray-700 mb-2">
               ✨ <strong>Instructions:</strong> Upload your image 📸, enter an optional prompt 💡, choose a tone 🎯, then generate engaging captions and hashtags 🚀
             </p>
