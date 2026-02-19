@@ -135,13 +135,12 @@ const handleSubmit = async (e: React.FormEvent) => {
       </div>
 
       <form
-        className="flex flex-col w-full max-w-5xl bg-white p-4 md:p-6 rounded-xl shadow-lg"
+        className="flex flex-col w-full max-w-5xl bg-white p-4 md:p-6 rounded-xl shadow-lg overflow-hidden"
         onSubmit={handleSubmit}
       >
-        <div className="flex flex-col md:flex-row gap-6 items-start w-full">
-
-          {/* Image Left */}
-          <div className="w-full md:flex-shrink-0 flex justify-center md:justify-start">
+        <div className="flex flex-col md:flex-row w-full gap-6 items-start">
+          {/* Left: Image */}
+          <div className="w-full md:w-1/2 flex justify-center md:justify-start">
             <div
               className="relative w-full md:max-w-md aspect-square cursor-pointer"
               onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}
@@ -178,14 +177,11 @@ const handleSubmit = async (e: React.FormEvent) => {
           {/* Divider */}
           <div className="hidden md:block w-px bg-gray-300"></div>
 
-          {/* Controls Right */}
-          <div className="flex-1 flex flex-col gap-4 w-full">
+          {/* Right: Controls */}
+          <div className="flex-1 md:w-1/2 flex flex-col gap-4">
             <p className="font-medium text-gray-700 mb-2">
               ✨ <strong>Instructions:</strong> Upload your image 📸, enter an optional prompt 💡, choose a tone 🎯, then generate engaging captions and hashtags 🚀
             </p>
-
-
-
             <textarea
               placeholder="Enter prompt (optional)"
               value={prompt}
@@ -204,7 +200,6 @@ const handleSubmit = async (e: React.FormEvent) => {
               <option value="corporate and professional">Corporate</option>
               <option value="minimalist and clean">Minimalist</option>
             </select>
-
             <div className="flex gap-2 mt-2">
               <button
                 type="submit"
