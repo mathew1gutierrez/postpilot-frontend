@@ -112,7 +112,11 @@ const handleSubmit = async (e: React.FormEvent) => {
     }
 
     const data = await res.json();
-    const newCaption = data.caption || "No caption returned";
+    const newCaption =
+      data.caption ||
+      data.output_text ||
+      data.choices?.[0]?.message?.content ||
+      "No caption returned";
 
     setResult(newCaption);
     setLoading(false);
@@ -131,7 +135,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     <main className="min-h-screen w-full flex flex-col items-center px-4 py-6 bg-gradient-to-br from-gray-50 to-gray-200 text-black overflow-x-hidden">
       <div className="w-full flex flex-col items-center text-center mb-6">
         <h1 className="text-4xl font-extrabold mb-2">PostPilot 🚀</h1>
-        <p className="text-gray-600 font-medium">AI-powered captions that convert 🎉</p>
+        <p className="text-gray-600 font-medium">AI-powered captions that convert</p>
       </div>
 
       <form
@@ -178,9 +182,9 @@ const handleSubmit = async (e: React.FormEvent) => {
           <div className="hidden md:block w-px bg-gray-300"></div>
 
           {/* Right: Controls */}
-          <div className="flex-1 md:w-1/2 flex flex-col gap-4">
+          <div className="w-full md:w-1/2 flex flex-col gap-4">
             <p className="font-medium text-gray-700 mb-2">
-              ✨ <strong>Instructions:</strong> Upload your image 📸, enter an optional prompt 💡, choose a tone 🎯, then generate engaging captions and hashtags 🚀
+              <strong>Instructions:</strong> Upload your image 📸, enter an optional prompt 💡, choose a tone 🎯, then generate engaging captions and hashtags 🚀
             </p>
             <textarea
               placeholder="Enter prompt (optional)"
@@ -260,32 +264,26 @@ const handleSubmit = async (e: React.FormEvent) => {
           </p>
 
           {(() => {
-            const blocks = result
-              .split("\n\n")
-              .filter((block) => block.trim().length > 20)
-              .slice(0, 6);
+            // Parse all non-placeholder, non-empty lines; collect captions and hashtags in a single pass
+            const lines = result
+              .split("\n")
+              .map(line => line.trim())
+              .filter(line => line.length > 0 && line !== "---");
 
-            const captions = blocks
-              .map((block) =>
-                block
-                  .split("\n")
-                  .filter((line) => !line.trim().startsWith("#"))
-                  .join(" ")
-              )
-              .filter((text) => text.trim().length > 0)
-              .slice(0, 3);
-
+            const captions: string[] = [];
             const hashtags: string[] = [];
-            blocks.forEach(block => {
-              const lines = block.split("\n");
-              lines.forEach(line => {
-                if (line.trim().startsWith("#")) {
-                  const clean = line.trim();
-                  if (clean.length > 0) hashtags.push(clean);
-                }
-              });
+
+            lines.forEach(line => {
+              if (line.startsWith("#")) {
+                hashtags.push(line);
+              } else {
+                captions.push(line);
+              }
             });
-            const topHashtags = hashtags.slice(0, 3); // take first 3 hashtags
+
+            // No slice on mobile; keep all items for display
+            const topCaptions = captions;
+            const topHashtags = hashtags;
 
             return (
               <>
@@ -294,7 +292,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                   <div>
                     <h3 className="text-lg font-semibold mb-4">Caption Options</h3>
                     <div className="space-y-4">
-                      {captions.map((caption, idx) => (
+                      {topCaptions.map((caption, idx) => (
                         <div
                           key={idx}
                           onClick={() => setSelectedCaption(caption)}
