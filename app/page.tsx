@@ -142,7 +142,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
           {/* Image Left */}
           <div className="flex-shrink-0">
-            <div className="relative w-full max-w-sm aspect-square cursor-pointer mx-auto" onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}>
+            <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg aspect-square cursor-pointer mx-auto" onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}>
               <input
                 type="file"
                 accept="image/*"
