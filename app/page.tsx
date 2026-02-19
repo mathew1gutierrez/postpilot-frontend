@@ -135,10 +135,10 @@ const handleSubmit = async (e: React.FormEvent) => {
       </div>
 
       <form
-        className="flex flex-col gap-4 w-full max-w-5xl bg-white p-4 md:p-6 rounded-xl shadow-lg"
+        className="flex flex-col w-full max-w-5xl bg-white p-4 md:p-6 rounded-xl shadow-lg"
         onSubmit={handleSubmit}
       >
-        <div className="flex flex-col md:flex-row gap-6 items-start">
+        <div className="flex flex-col md:flex-row gap-6 items-start w-full">
 
           {/* Image Left */}
           <div className="w-full md:flex-shrink-0 flex justify-center md:justify-start">
@@ -179,7 +179,7 @@ const handleSubmit = async (e: React.FormEvent) => {
           <div className="hidden md:block w-px bg-gray-300"></div>
 
           {/* Controls Right */}
-          <div className="flex-1 flex flex-col gap-4 w-full md:h-96">
+          <div className="flex-1 flex flex-col gap-4 w-full">
             <p className="font-medium text-gray-700 mb-2">
               ✨ <strong>Instructions:</strong> Upload your image 📸, enter an optional prompt 💡, choose a tone 🎯, then generate engaging captions and hashtags 🚀
             </p>
