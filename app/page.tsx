@@ -141,7 +141,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         <div className="flex flex-col md:flex-row gap-6 items-start flex-wrap">
 
           {/* Image Left */}
-          <div className="w-full md:flex-shrink-0 flex justify-center">
+          <div className="w-full md:flex-shrink-0 flex md:justify-start justify-center">
             <div
               className="relative w-full md:max-w-md aspect-square cursor-pointer"
               onClick={() => document.querySelector<HTMLInputElement>('input[type="file"]')?.click()}
