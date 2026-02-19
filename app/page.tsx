@@ -71,7 +71,7 @@ export default function HomePage() {
           />
           <button
             onClick={() => {
-              if (password === "postpilot123") {
+              if (password === " ") {
                 setAuthenticated(true);
               } else {
                 alert("Incorrect password");
