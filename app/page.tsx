@@ -61,7 +61,7 @@ export default function HomePage() {
     return (
       <main className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-center">PostPilot.. Access</h2>
+          <h2 className="text-2xl font-bold text-center">PostPilot Access</h2>
           <input
             type="password"
             placeholder="Enter access password"
@@ -267,55 +267,56 @@ const handleSubmit = async (e: React.FormEvent) => {
             // Clean raw result
             const cleaned = result.replace(/---/g, "").trim();
 
-            // Extract hashtags globally and split into up to 3 balanced groups
+            // Extract ALL hashtags globally
+            const hashtagMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
+            const uniqueTags = Array.from(new Set(hashtagMatches));
+
             let hashtagGroups: string[] = [];
 
-            const hashtagMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
-
-            if (hashtagMatches.length > 0) {
-              const uniqueTags = Array.from(new Set(hashtagMatches));
-
-              // Split into 3 balanced groups max
+            if (uniqueTags.length > 0) {
               const groupCount = Math.min(3, uniqueTags.length);
               const groupSize = Math.ceil(uniqueTags.length / groupCount);
 
               for (let i = 0; i < uniqueTags.length; i += groupSize) {
-                hashtagGroups.push(
-                  uniqueTags.slice(i, i + groupSize).join(" ")
-                );
+                hashtagGroups.push(uniqueTags.slice(i, i + groupSize).join(" "));
               }
+            } else {
+              // Fallback if AI returns no hashtags
+              hashtagGroups = ["No hashtags generated. Try regenerating."];
             }
 
-            // Remove hashtags from text so captions are clean
+            // Remove hashtags from caption text
             const textWithoutHashtags = cleaned.replace(/#[a-zA-Z0-9_]+/g, "").trim();
 
-            // Try splitting captions by numbered list, double newline, or sentence
             let captionCandidates: string[] = [];
 
-            // 1️⃣ Numbered list (1. Caption...)
             if (/\d+\./.test(textWithoutHashtags)) {
               captionCandidates = textWithoutHashtags
                 .split(/\d+\.\s+/)
                 .map(t => t.trim())
                 .filter(t => t.length > 10);
-            }
-            // 2️⃣ Double line breaks
-            else if (textWithoutHashtags.includes("\n\n")) {
+            } else if (textWithoutHashtags.includes("\n\n")) {
               captionCandidates = textWithoutHashtags
                 .split("\n\n")
                 .map(t => t.trim())
                 .filter(t => t.length > 10);
-            }
-            // 3️⃣ Fallback: split by sentence
-            else {
+            } else {
               captionCandidates = textWithoutHashtags
                 .split(/(?<=[.!?])\s+/)
                 .map(t => t.trim())
                 .filter(t => t.length > 20);
             }
 
-            const topCaptions = captionCandidates;
-            const topHashtags = hashtagGroups;
+            // Always limit to max 3 captions
+            const topCaptions = captionCandidates.slice(0, 3);
+
+            // Always limit to max 3 hashtag groups
+            const topHashtags = hashtagGroups.slice(0, 3);
+
+            // Final safety fallback
+            if (topCaptions.length === 0) {
+              topCaptions.push("No captions generated. Try regenerating.");
+            }
 
             return (
               <>
