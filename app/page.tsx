@@ -28,6 +28,7 @@ export default function HomePage() {
   const [prompt, setPrompt] = useState("");
   const [result, setResult] = useState("");
   const [tone, setTone] = useState("");
+  const [companyName, setCompanyName] = useState("");
   const [loading, setLoading] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
@@ -61,7 +62,7 @@ export default function HomePage() {
     return (
       <main className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-center">PostPilot 7 Access</h2>
+          <h2 className="text-2xl font-bold text-center">PostPilot Access</h2>
           <input
             type="password"
             placeholder="Enter access password"
@@ -97,6 +98,8 @@ const handleSubmit = async (e: React.FormEvent) => {
   formData.append("file", file);
   formData.append("prompt", prompt);
   formData.append("tone", tone);
+  formData.append("companyName", companyName);
+  formData.append("variationSeed", Date.now().toString());
 
   try {
     setLoading(true);
@@ -186,6 +189,13 @@ const handleSubmit = async (e: React.FormEvent) => {
             <p className="font-medium text-gray-700 mb-2">
               <strong>Instructions:</strong> Upload your image 📸, enter an optional prompt 💡, choose a tone 🎯, then generate engaging captions and hashtags 🚀
             </p>
+            <input
+              type="text"
+              placeholder="Company Name (optional)"
+              value={companyName}
+              onChange={(e) => setCompanyName(e.target.value)}
+              className="border p-3 rounded-lg w-full"
+            />
             <textarea
               placeholder="Enter prompt (optional)"
               value={prompt}
@@ -220,6 +230,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                   setResult("");
                   setPrompt("");
                   setTone("");
+                  setCompanyName("");
                 }}
                 className="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gray-300 transition active:scale-95"
               >
@@ -286,7 +297,10 @@ const handleSubmit = async (e: React.FormEvent) => {
               "#BusinessTips",
             ];
 
-            let allTags = uniqueTags.length >= 5 ? uniqueTags : fallbackTags;
+            let allTags =
+              uniqueTags.length >= 10
+                ? uniqueTags
+                : [...uniqueTags, ...fallbackTags];
 
             // Ensure at least 15 total tags so we can split into 3 groups of 5+
             while (allTags.length < 15) {
@@ -305,6 +319,9 @@ const handleSubmit = async (e: React.FormEvent) => {
             // CAPTION EXTRACTION (FORCE 3, ADD EMOJIS, MIN LENGTH)
             // -----------------------------
             const textWithoutHashtags = cleaned.replace(/#[a-zA-Z0-9_]+/g, "").trim();
+            const strongPromptBoost = prompt
+              ? `\n\nMake sure the caption strongly follows this instruction: ${prompt}.`
+              : "";
 
             let captionCandidates: string[] = [];
 
@@ -339,7 +356,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             while (topCaptions.length < 3) {
               topCaptions.push(
                 ensureEmoji(
-                  "Ready to elevate your content and stand out from the crowd? Let’s make it happen."
+                  `This post is designed to capture attention, spark engagement, and drive meaningful action.${strongPromptBoost}`
                 )
               );
             }
@@ -347,10 +364,10 @@ const handleSubmit = async (e: React.FormEvent) => {
             // Enforce emoji + minimum length
             topCaptions = topCaptions.map(c => {
               let caption = c;
-              if (caption.length < 40) {
+              if (caption.length < 80) {
                 caption =
                   caption +
-                  " Elevate your brand and drive real engagement with content that converts.";
+                  ` This content is crafted to align with your message and maximize engagement while staying true to your brand voice.${strongPromptBoost}`;
               }
               return ensureEmoji(caption);
             });
@@ -384,10 +401,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                               ✓
                             </span>
                           )}
-                          {caption
-                            .split(" ")
-                            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                            .join(" ")}
+                          {caption}
                           <p className="text-xs mt-2 opacity-60 text-right">{caption.length} chars</p>
                         </div>
                       ))}
