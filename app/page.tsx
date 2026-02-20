@@ -29,6 +29,9 @@ export default function HomePage() {
   const [result, setResult] = useState("");
   const [tone, setTone] = useState("");
   const [companyName, setCompanyName] = useState("");
+  const [goal, setGoal] = useState("");
+  const [targetAudience, setTargetAudience] = useState("");
+  const [contentType, setContentType] = useState("");
   const [loading, setLoading] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
@@ -95,11 +98,14 @@ const handleSubmit = async (e: React.FormEvent) => {
   setSelectedHashtags(null);
 
   const formData = new FormData();
-  formData.append("file", file);
-  formData.append("prompt", prompt);
-  formData.append("tone", tone);
-  formData.append("companyName", companyName);
-  formData.append("variationSeed", Date.now().toString());
+formData.append("file", file);
+formData.append("prompt", prompt);
+formData.append("tone", tone);
+formData.append("companyName", companyName);
+formData.append("goal", goal);
+formData.append("targetAudience", targetAudience);
+formData.append("contentType", contentType);
+formData.append("variationSeed", Date.now().toString());
 
   try {
     setLoading(true);
@@ -196,12 +202,51 @@ const handleSubmit = async (e: React.FormEvent) => {
               onChange={(e) => setCompanyName(e.target.value)}
               className="border p-3 rounded-lg w-full"
             />
-            <textarea
-              placeholder="Enter prompt (optional)"
-              value={prompt}
-              onChange={(e) => setPrompt(e.target.value)}
-              className="border p-4 rounded-lg w-full h-64 resize-none"
-            />
+
+            <select
+              value={goal}
+              onChange={(e) => setGoal(e.target.value)}
+              className="border p-2 rounded-lg w-full text-gray-700 bg-white"
+            >
+              <option value="">Select Goal</option>
+              <option value="Increase sales">Increase Sales 💰</option>
+              <option value="Drive website traffic">Drive Website Traffic 🌐</option>
+              <option value="Build brand awareness">Build Brand Awareness 👀</option>
+              <option value="Increase engagement">Increase Engagement 💬</option>
+              <option value="Promote event">Promote Event 📅</option>
+              <option value="Launch announcement">Launch Announcement 🚀</option>
+              <option value="Educate audience">Educate Audience 📚</option>
+            </select>
+
+
+<select
+  value={targetAudience}
+  onChange={(e) => setTargetAudience(e.target.value)}
+  className="border p-2 rounded-lg w-full text-gray-700 bg-white"
+>
+  <option value="">Select Target Audience</option>
+  <option value="Small business owners">Small Business Owners 🏪</option>
+  <option value="Entrepreneurs">Entrepreneurs 🚀</option>
+  <option value="Gen Z">Gen Z 📱</option>
+  <option value="Corporate professionals">Corporate Professionals 💼</option>
+  <option value="Fitness audience">Fitness Audience 💪</option>
+  <option value="Moms and families">Moms & Families 👩‍👧</option>
+  <option value="Students">Students 🎓</option>
+</select>
+<select
+  value={contentType}
+  onChange={(e) => setContentType(e.target.value)}
+  className="border p-2 rounded-lg w-full text-gray-700 bg-white"
+>
+  <option value="">Select Content Type</option>
+  <option value="Product post">Product Post 🛍</option>
+  <option value="Testimonial">Testimonial ⭐</option>
+  <option value="Behind the scenes">Behind-the-Scenes 🎬</option>
+  <option value="Announcement">Announcement 📢</option>
+  <option value="Educational">Educational Tip 📚</option>
+  <option value="Trend or meme">Trend / Meme 😎</option>
+</select>
+            
             <select
               value={tone}
               onChange={(e) => setTone(e.target.value)}
@@ -214,6 +259,12 @@ const handleSubmit = async (e: React.FormEvent) => {
               <option value="corporate and professional">Corporate</option>
               <option value="minimalist and clean">Minimalist</option>
             </select>
+            <textarea
+              placeholder="Additional Instructions (optional)"
+              value={prompt}
+              onChange={(e) => setPrompt(e.target.value)}
+              className="border p-4 rounded-lg w-full h-40 resize-none"
+            ></textarea>
             <div className="flex gap-2 mt-2">
               <button
                 type="submit"
@@ -231,6 +282,9 @@ const handleSubmit = async (e: React.FormEvent) => {
                   setPrompt("");
                   setTone("");
                   setCompanyName("");
+                  setGoal("");
+                  setTargetAudience("");
+                  setContentType("");
                 }}
                 className="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gray-300 transition active:scale-95"
               >
@@ -373,6 +427,17 @@ const handleSubmit = async (e: React.FormEvent) => {
             });
 
             topCaptions = topCaptions.slice(0, 3);
+            // -----------------------------
+            // COMPANY NAME CASING FIX
+            // -----------------------------
+            if (companyName && companyName.trim().length > 0) {
+              const escapedCompany = companyName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+              const companyRegex = new RegExp(escapedCompany, "gi");
+
+              topCaptions = topCaptions.map(caption =>
+                caption.replace(companyRegex, companyName)
+              );
+            }
 
             return (
               <>
