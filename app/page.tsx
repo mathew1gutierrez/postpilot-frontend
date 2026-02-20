@@ -264,25 +264,42 @@ const handleSubmit = async (e: React.FormEvent) => {
           </p>
 
           {(() => {
-            // Parse all non-placeholder, non-empty lines; collect captions and hashtags in a single pass
-            const lines = result
-              .split("\n")
-              .map(line => line.trim())
-              .filter(line => line.length > 0 && line !== "---");
+            // Clean raw result
+            const cleaned = result.replace(/---/g, "").trim();
 
-            const captions: string[] = [];
-            const hashtags: string[] = [];
+            // Extract hashtags using regex (works even if inline)
+            const hashtagMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
+            const hashtags = Array.from(new Set(hashtagMatches)); // remove duplicates
 
-            lines.forEach(line => {
-              if (line.startsWith("#")) {
-                hashtags.push(line);
-              } else {
-                captions.push(line);
-              }
-            });
+            // Remove hashtags from text so captions are clean
+            const textWithoutHashtags = cleaned.replace(/#[a-zA-Z0-9_]+/g, "").trim();
 
-            // No slice on mobile; keep all items for display
-            const topCaptions = captions;
+            // Try splitting captions by numbered list, double newline, or sentence
+            let captionCandidates: string[] = [];
+
+            // 1️⃣ Numbered list (1. Caption...)
+            if (/\d+\./.test(textWithoutHashtags)) {
+              captionCandidates = textWithoutHashtags
+                .split(/\d+\.\s+/)
+                .map(t => t.trim())
+                .filter(t => t.length > 10);
+            }
+            // 2️⃣ Double line breaks
+            else if (textWithoutHashtags.includes("\n\n")) {
+              captionCandidates = textWithoutHashtags
+                .split("\n\n")
+                .map(t => t.trim())
+                .filter(t => t.length > 10);
+            }
+            // 3️⃣ Fallback: split by sentence
+            else {
+              captionCandidates = textWithoutHashtags
+                .split(/(?<=[.!?])\s+/)
+                .map(t => t.trim())
+                .filter(t => t.length > 20);
+            }
+
+            const topCaptions = captionCandidates;
             const topHashtags = hashtags;
 
             return (
