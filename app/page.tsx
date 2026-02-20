@@ -61,7 +61,7 @@ export default function HomePage() {
     return (
       <main className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-center">PostPilot Access</h2>
+          <h2 className="text-2xl font-bold text-center">PostPilot.. Access</h2>
           <input
             type="password"
             placeholder="Enter access password"
@@ -267,24 +267,22 @@ const handleSubmit = async (e: React.FormEvent) => {
             // Clean raw result
             const cleaned = result.replace(/---/g, "").trim();
 
-            // Extract hashtag groups more reliably
+            // Extract hashtags globally and split into up to 3 balanced groups
             let hashtagGroups: string[] = [];
 
-            // Try splitting by line first
-            const lines = cleaned.split("\n").map(l => l.trim()).filter(Boolean);
+            const hashtagMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
 
-            lines.forEach(line => {
-              const matches = line.match(/#[a-zA-Z0-9_]+/g);
-              if (matches && matches.length > 0) {
-                hashtagGroups.push(matches.join(" "));
-              }
-            });
+            if (hashtagMatches.length > 0) {
+              const uniqueTags = Array.from(new Set(hashtagMatches));
 
-            // Fallback: if nothing grouped by line, group all hashtags together
-            if (hashtagGroups.length === 0) {
-              const allMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
-              if (allMatches.length > 0) {
-                hashtagGroups.push(Array.from(new Set(allMatches)).join(" "));
+              // Split into 3 balanced groups max
+              const groupCount = Math.min(3, uniqueTags.length);
+              const groupSize = Math.ceil(uniqueTags.length / groupCount);
+
+              for (let i = 0; i < uniqueTags.length; i += groupSize) {
+                hashtagGroups.push(
+                  uniqueTags.slice(i, i + groupSize).join(" ")
+                );
               }
             }
 
