@@ -61,7 +61,7 @@ export default function HomePage() {
     return (
       <main className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-center">PostPilot Access</h2>
+          <h2 className="text-2xl font-bold text-center">PostPilot. Access</h2>
           <input
             type="password"
             placeholder="Enter access password"
