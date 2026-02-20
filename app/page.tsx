@@ -61,7 +61,7 @@ export default function HomePage() {
     return (
       <main className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-center">PostPilot. Access</h2>
+          <h2 className="text-2xl font-bold text-center">PostPilot Access</h2>
           <input
             type="password"
             placeholder="Enter access password"
@@ -267,9 +267,26 @@ const handleSubmit = async (e: React.FormEvent) => {
             // Clean raw result
             const cleaned = result.replace(/---/g, "").trim();
 
-            // Extract hashtags using regex (works even if inline)
-            const hashtagMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
-            const hashtags = Array.from(new Set(hashtagMatches)); // remove duplicates
+            // Extract hashtag groups more reliably
+            let hashtagGroups: string[] = [];
+
+            // Try splitting by line first
+            const lines = cleaned.split("\n").map(l => l.trim()).filter(Boolean);
+
+            lines.forEach(line => {
+              const matches = line.match(/#[a-zA-Z0-9_]+/g);
+              if (matches && matches.length > 0) {
+                hashtagGroups.push(matches.join(" "));
+              }
+            });
+
+            // Fallback: if nothing grouped by line, group all hashtags together
+            if (hashtagGroups.length === 0) {
+              const allMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
+              if (allMatches.length > 0) {
+                hashtagGroups.push(Array.from(new Set(allMatches)).join(" "));
+              }
+            }
 
             // Remove hashtags from text so captions are clean
             const textWithoutHashtags = cleaned.replace(/#[a-zA-Z0-9_]+/g, "").trim();
@@ -300,7 +317,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             }
 
             const topCaptions = captionCandidates;
-            const topHashtags = hashtags;
+            const topHashtags = hashtagGroups;
 
             return (
               <>
