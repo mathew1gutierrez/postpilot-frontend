@@ -267,25 +267,43 @@ const handleSubmit = async (e: React.FormEvent) => {
             // Clean raw result
             const cleaned = result.replace(/---/g, "").trim();
 
-            // Extract ALL hashtags globally
+            // -----------------------------
+            // HASHTAG EXTRACTION (FORCE 3 GROUPS, 5–10 TAGS EACH)
+            // -----------------------------
             const hashtagMatches = cleaned.match(/#[a-zA-Z0-9_]+/g) || [];
             const uniqueTags = Array.from(new Set(hashtagMatches));
 
-            let hashtagGroups: string[] = [];
+            const fallbackTags = [
+              "#ContentCreation",
+              "#SocialMedia",
+              "#Marketing",
+              "#BrandGrowth",
+              "#DigitalStrategy",
+              "#Entrepreneur",
+              "#SmallBusiness",
+              "#OnlineSuccess",
+              "#GrowthMindset",
+              "#BusinessTips",
+            ];
 
-            if (uniqueTags.length > 0) {
-              const groupCount = Math.min(3, uniqueTags.length);
-              const groupSize = Math.ceil(uniqueTags.length / groupCount);
+            let allTags = uniqueTags.length >= 5 ? uniqueTags : fallbackTags;
 
-              for (let i = 0; i < uniqueTags.length; i += groupSize) {
-                hashtagGroups.push(uniqueTags.slice(i, i + groupSize).join(" "));
-              }
-            } else {
-              // Fallback if AI returns no hashtags
-              hashtagGroups = ["No hashtags generated. Try regenerating."];
+            // Ensure at least 15 total tags so we can split into 3 groups of 5+
+            while (allTags.length < 15) {
+              allTags = [...allTags, ...fallbackTags];
             }
 
-            // Remove hashtags from caption text
+            const hashtagGroups: string[] = [];
+            for (let i = 0; i < 3; i++) {
+              const slice = allTags.slice(i * 5, i * 5 + 5);
+              hashtagGroups.push(slice.slice(0, 10).join(" "));
+            }
+
+            const topHashtags = hashtagGroups.slice(0, 3);
+
+            // -----------------------------
+            // CAPTION EXTRACTION (FORCE 3, ADD EMOJIS, MIN LENGTH)
+            // -----------------------------
             const textWithoutHashtags = cleaned.replace(/#[a-zA-Z0-9_]+/g, "").trim();
 
             let captionCandidates: string[] = [];
@@ -294,12 +312,12 @@ const handleSubmit = async (e: React.FormEvent) => {
               captionCandidates = textWithoutHashtags
                 .split(/\d+\.\s+/)
                 .map(t => t.trim())
-                .filter(t => t.length > 10);
+                .filter(t => t.length > 20);
             } else if (textWithoutHashtags.includes("\n\n")) {
               captionCandidates = textWithoutHashtags
                 .split("\n\n")
                 .map(t => t.trim())
-                .filter(t => t.length > 10);
+                .filter(t => t.length > 20);
             } else {
               captionCandidates = textWithoutHashtags
                 .split(/(?<=[.!?])\s+/)
@@ -307,16 +325,37 @@ const handleSubmit = async (e: React.FormEvent) => {
                 .filter(t => t.length > 20);
             }
 
-            // Always limit to max 3 captions
-            const topCaptions = captionCandidates.slice(0, 3);
+            const emojiSet = ["🔥", "🚀", "✨", "💡", "📈", "🎯", "💪", "🌟"];
 
-            // Always limit to max 3 hashtag groups
-            const topHashtags = hashtagGroups.slice(0, 3);
-
-            // Final safety fallback
-            if (topCaptions.length === 0) {
-              topCaptions.push("No captions generated. Try regenerating.");
+            function ensureEmoji(text: string) {
+              const hasEmoji = /[\u{1F300}-\u{1FAFF}]/u.test(text);
+              if (hasEmoji) return text;
+              return text + " " + emojiSet[Math.floor(Math.random() * emojiSet.length)];
             }
+
+            let topCaptions = captionCandidates.slice(0, 3);
+
+            // Fallback if too few captions
+            while (topCaptions.length < 3) {
+              topCaptions.push(
+                ensureEmoji(
+                  "Ready to elevate your content and stand out from the crowd? Let’s make it happen."
+                )
+              );
+            }
+
+            // Enforce emoji + minimum length
+            topCaptions = topCaptions.map(c => {
+              let caption = c;
+              if (caption.length < 40) {
+                caption =
+                  caption +
+                  " Elevate your brand and drive real engagement with content that converts.";
+              }
+              return ensureEmoji(caption);
+            });
+
+            topCaptions = topCaptions.slice(0, 3);
 
             return (
               <>
