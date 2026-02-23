@@ -1,0 +1,4030 @@
+[00:00:00.348] Server  LOG     ✓ Ready in 247ms
+[00:00:56.335] Server  LOG     ✓ Compiled in 37ms
+[00:01:58.570] Server  LOG     ✓ Compiled in 39ms
+[00:03:05.947] Server  LOG     ✓ Compiled in 26ms
+[00:04:23.421] Server  LOG     ✓ Compiled in 37ms
+[00:04:34.186] Server  LOG     ✓ Compiled in 39ms
+[00:06:26.854] Server  LOG     ✓ Compiled in 36ms
+[00:07:13.329] Server  WARN    ⚠ Cross origin request detected from 192.168.1.171 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:13:54.267] Browser ERROR   Error generating caption: {}
+[00:13:57.803] Server  LOG     ✓ Compiled in 34ms
+[00:15:18.644] Server  LOG     ✓ Compiled in 28ms
+[00:26:58.368] Server  LOG     ✓ Compiled in 29ms
+[00:28:41.344] Server  LOG     ✓ Compiled in 27ms
+[00:30:27.059] Server  LOG     ✓ Compiled in 22ms
+[00:40:13.871] Server  LOG     ✓ Compiled in 42ms
+[00:40:21.955] Server  LOG     ✓ Compiled in 45ms
+[00:40:25.912] Server  LOG     ✓ Compiled in 26ms
+[00:40:48.779] Server  LOG     ✓ Compiled in 38ms
+[00:43:43.675] Server  LOG     ✓ Compiled in 43ms
+[19:28:16.120] Server  LOG     ✓ Compiled in 43ms
+[19:29:44.772] Server  LOG     ✓ Compiled in 32ms
+[19:32:22.481] Server  LOG     ✓ Compiled in 33ms
+[19:32:39.930] Server  LOG     ✓ Compiled in 26ms
+[19:34:38.980] Server  LOG     ✓ Compiled in 39ms
+[19:34:54.100] Server  LOG     ✓ Compiled in 32ms
+[19:37:12.424] Server  LOG     ✓ Compiled in 44ms
+[19:37:30.192] Server  LOG     ✓ Compiled in 28ms
+[19:44:15.131] Server  LOG     ✓ Compiled in 29ms
+[19:44:59.920] Server  LOG     ✓ Compiled in 30ms
+[19:45:01.038] Server  LOG     ✓ Compiled in 34ms
+[19:50:34.686] Server  LOG     ✓ Compiled in 34ms
+[19:52:08.726] Server  LOG     ✓ Compiled in 29ms
+[19:52:15.440] Server  LOG     ✓ Compiled in 32ms
+[19:56:19.411] Server  LOG     ✓ Compiled in 35ms
+[20:02:20.383] Server  LOG     ✓ Compiled in 51ms
+[20:02:24.605] Server  LOG     ✓ Compiled in 35ms
+[20:03:46.800] Server  LOG     ✓ Compiled in 30ms
+[20:04:15.349] Server  LOG     ✓ Compiled in 29ms
+[20:04:16.381] Server  LOG     ✓ Compiled in 36ms
+[20:04:23.675] Server  LOG     ✓ Compiled in 42ms
+[20:04:24.999] Server  LOG     ✓ Compiled in 31ms
+[20:04:33.469] Server  LOG     ✓ Compiled in 35ms
+[20:04:34.831] Server  LOG     ✓ Compiled in 34ms
+[20:04:38.321] Server  LOG     ✓ Compiled in 37ms
+[20:05:11.548] Server  LOG     ✓ Compiled in 59ms
+[20:05:12.560] Server  LOG     ✓ Compiled in 38ms
+[20:05:44.413] Server  LOG     ✓ Compiled in 54ms
+[20:06:14.691] Server  LOG     ✓ Compiled in 46ms
+[20:06:16.527] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.533] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.536] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.539] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.542] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.549] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.557] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.559] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.563] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: onst
+[20:06:16.573] Browser ERROR   ./app/page.tsx:204:15
+Parsing ecmascript source code failed
+  202 |               onChange={(e) => setCompanyName(e.target.value)}
+  203 |               className="border p-3 rounded-lg w-full"
+> 204 |               <select
+      |               ^
+  205 |   value={goal}
+  206 |   onChange={(e) => setGoal(e.target.value)}
+  207 |   className="border p-2 rounded-lg w-full text-gray-700 bg-white"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[20:06:16.573] Browser ERROR   ./app/page.tsx:242:14
+Parsing ecmascript source code failed
+  240 |   <option value="Trend or meme">Trend / Meme 😎</option>
+  241 | </select>
+> 242 |             />
+      |              ^
+  243 |             <textarea
+  244 |               placeholder="Enter prompt (optional)"
+  245 |               value={prompt}
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[20:09:39.452] Server  LOG     ✓ Compiled in 31ms
+[32:11:54.066] Server  LOG     ✓ Compiled in 37ms
+[32:15:02.136] Server  LOG     ✓ Compiled in 41ms
+[32:17:30.727] Server  LOG     ✓ Compiled in 34ms
+[32:21:36.084] Server  LOG     ✓ Compiled in 39ms
+[32:21:36.266] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: userInstructionBoost
+[32:21:37.133] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[32:21:37.152] Server  LOG     ✓ Compiled in 41ms
+[32:22:06.647] Server  LOG     ✓ Compiled in 39ms
+[32:22:26.396] Server  LOG     ✓ Compiled in 38ms
+[32:22:43.547] Server  LOG     ✓ Compiled in 54ms
+[32:23:04.513] Server  LOG     ✓ Compiled in 34ms
+[32:23:44.756] Server  LOG     ✓ Compiled in 51ms
+[32:26:28.266] Server  LOG     ✓ Compiled in 39ms
+[32:29:53.015] Server  LOG     ✓ Compiled in 37ms
+[32:31:19.368] Server  LOG     ✓ Compiled in 44ms
+[32:33:27.808] Browser ERROR   Error generating caption: {}
+[32:34:31.600] Server  LOG     ✓ Compiled in 34ms
+[32:36:21.119] Server  LOG     ✓ Compiled in 37ms
+[32:37:31.865] Server  LOG     ✓ Compiled in 38ms
+[32:43:46.177] Server  LOG     ✓ Compiled in 34ms
+[32:45:08.503] Server  LOG     ✓ Compiled in 35ms
+[42:34:32.940] Server  LOG     ✓ Compiled in 34ms
+[42:37:23.399] Server  LOG     ✓ Compiled in 40ms
+[42:39:38.452] Server  LOG     ✓ Compiled in 43ms
+[42:41:10.720] Server  LOG     ✓ Compiled in 43ms
+[42:42:37.261] Server  LOG     ✓ Compiled in 46ms
+[42:44:08.204] Server  LOG     ✓ Compiled in 48ms
+[42:46:22.085] Server  LOG     ✓ Compiled in 33ms
+[42:49:04.063] Server  LOG     ✓ Compiled in 39ms
+[42:49:46.399] Server  LOG     ✓ Compiled in 37ms
+[42:51:02.827] Server  LOG     ✓ Compiled in 30ms
+[42:51:45.263] Server  LOG     ✓ Compiled in 30ms
+[42:55:10.708] Server  LOG     ✓ Compiled in 39ms
+[42:56:33.395] Server  LOG     ✓ Compiled in 39ms
+[42:57:04.038] Server  LOG     ✓ Compiled in 29ms
+[42:59:35.794] Server  LOG     ✓ Compiled in 37ms
+[43:01:56.855] Server  LOG     ✓ Compiled in 30ms
+[43:04:02.481] Server  LOG     ✓ Compiled in 35ms
+[43:06:33.512] Server  LOG     ✓ Compiled in 33ms
+[43:08:24.832] Server  LOG     ✓ Compiled in 79ms
+[43:08:25.035] Browser ERROR   ./app/page.tsx:15:1
+Ecmascript file had an error
+  13 |   return `${month} ${day}${ordinal}`;
+  14 | }
+> 15 | "use client";
+     | ^^^^^^^^^^^^^
+  16 |
+  17 | import { useState, useEffect, useRef } from "react";
+  18 |
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+[43:08:25.035] Browser ERROR   ./app/page.tsx:17:20
+Ecmascript file had an error
+  15 | "use client";
+  16 |
+> 17 | import { useState, useEffect, useRef } from "react";
+     |                    ^^^^^^^^^
+  18 |
+  19 |
+  20 | export default function HomePage() {
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[43:08:25.035] Browser ERROR   ./app/page.tsx:17:31
+Ecmascript file had an error
+  15 | "use client";
+  16 |
+> 17 | import { useState, useEffect, useRef } from "react";
+     |                               ^^^^^^
+  18 |
+  19 |
+  20 | export default function HomePage() {
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[43:08:25.035] Browser ERROR   ./app/page.tsx:17:10
+Ecmascript file had an error
+  15 | "use client";
+  16 |
+> 17 | import { useState, useEffect, useRef } from "react";
+     |          ^^^^^^^^
+  18 |
+  19 |
+  20 | export default function HomePage() {
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[43:08:25.035] Browser ERROR   ./app
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[43:08:56.346] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[43:08:56.346] Browser ERROR   unhandledRejection: undefined
+[43:13:58.184] Server  LOG     ✓ Compiled in 36ms
+[43:16:49.558] Server  LOG     ✓ Compiled in 42ms
+[43:18:30.548] Server  LOG     ✓ Compiled in 36ms
+[43:20:36.427] Server  LOG     ✓ Compiled in 33ms
+[43:21:52.190] Server  LOG     ✓ Compiled in 42ms
+[43:24:58.765] Server  LOG     ✓ Compiled in 43ms
+[43:28:13.008] Server  LOG     ✓ Compiled in 41ms
+[43:30:11.436] Server  LOG     ✓ Compiled in 44ms
+[43:33:21.747] Server  LOG     ✓ Compiled in 38ms
+[43:35:28.498] Server  LOG     ✓ Compiled in 32ms
+[43:39:20.393] Server  LOG     ✓ Compiled in 42ms
+[43:41:01.783] Server  LOG     ✓ Compiled in 45ms
+[43:42:37.882] Server  LOG     ✓ Compiled in 35ms
+[43:45:06.038] Server  LOG     ✓ Compiled in 38ms
+[43:48:21.687] Server  LOG     ✓ Compiled in 37ms
+[43:50:40.135] Server  LOG     ✓ Compiled in 35ms
+[43:53:03.025] Server  LOG     ✓ Compiled in 26ms
+[43:53:03.096] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[43:53:03.260] Server  ERROR   ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[43:53:03.652] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[43:53:29.503] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[43:53:29.504] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[43:53:29.504] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[43:53:29.554] Server  LOG     ✓ Compiled in 41ms
+[47:17:58.788] Server  LOG     ✓ Compiled in 51ms
+[47:20:09.965] Server  LOG     ✓ Compiled in 50ms
+[47:23:45.524] Server  LOG     ✓ Compiled in 49ms
+[47:24:56.063] Server  LOG     ✓ Compiled in 50ms
+[47:25:30.573] Server  LOG     ✓ Compiled in 41ms
+[47:26:16.752] Server  LOG     ✓ Compiled in 42ms
+[47:27:46.982] Server  LOG     ✓ Compiled in 49ms
+[47:29:54.052] Server  LOG     ✓ Compiled in 42ms
+[47:30:20.682] Server  LOG     ✓ Compiled in 37ms
+[47:33:00.196] Server  LOG     ✓ Compiled in 39ms
+[47:35:53.910] Server  LOG     ✓ Compiled in 39ms
+[47:36:40.393] Server  LOG     ✓ Compiled in 42ms
+[47:37:56.968] Server  LOG     ✓ Compiled in 39ms
+[47:39:47.761] Server  LOG     ✓ Compiled in 47ms
+[47:41:18.663] Server  LOG     ✓ Compiled in 48ms
+[47:41:28.772] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: generatedHashtags
+[47:42:23.582] Server  LOG     ✓ Compiled in 50ms
+[47:42:44.001] Server  LOG     ✓ Compiled in 42ms
+[47:43:09.977] Server  LOG     ✓ Compiled in 37ms
+[47:44:07.748] Server  LOG     ✓ Compiled in 38ms
+[47:44:30.777] Server  LOG     ✓ Compiled in 43ms
+[47:44:31.843] Server  LOG     ✓ Compiled in 47ms
+[47:44:32.902] Server  LOG     ✓ Compiled in 46ms
+[47:46:07.868] Server  LOG     ✓ Compiled in 42ms
+[47:47:36.927] Server  LOG     ✓ Compiled in 46ms
+[47:49:53.364] Server  LOG     ✓ Compiled in 46ms
+[47:50:23.790] Server  LOG     ✓ Compiled in 58ms
+[47:52:22.157] Server  LOG     ✓ Compiled in 42ms
+[47:53:49.713] Server  LOG     ✓ Compiled in 53ms
+[47:55:17.245] Server  LOG     ✓ Compiled in 45ms
+[47:55:29.844] Server  LOG     ✓ Compiled in 55ms
+[47:55:41.795] Server  LOG     ✓ Compiled in 50ms
+[47:55:42.890] Server  LOG     ✓ Compiled in 37ms
+[47:55:51.720] Server  LOG     ✓ Compiled in 54ms
+[47:56:01.048] Server  LOG     ✓ Compiled in 44ms
+[47:56:30.431] Server  LOG     ✓ Compiled in 51ms
+[47:56:40.010] Server  LOG     ✓ Compiled in 46ms
+[47:59:05.861] Server  LOG     ✓ Compiled in 44ms
+[47:59:43.407] Server  LOG     ✓ Compiled in 40ms
+[48:00:39.582] Server  LOG     ✓ Compiled in 40ms
+[48:01:34.302] Server  LOG     ✓ Compiled in 46ms
+[48:01:47.777] Server  LOG     ✓ Compiled in 45ms
+[48:01:51.776] Server  LOG     ✓ Compiled in 40ms
+[67:13:09.175] Server  LOG     ✓ Compiled in 41ms
+[77:15:53.922] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.923] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.924] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.925] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.925] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.925] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.926] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.926] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.926] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.926] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.927] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.928] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.928] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.929] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.929] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.929] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.929] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.930] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.930] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.930] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.931] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.931] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.932] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.932] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.933] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.933] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.934] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.934] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.934] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.935] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.935] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.936] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.936] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.936] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.937] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.937] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.938] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.938] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.938] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.939] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.939] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.939] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.940] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.940] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.940] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.941] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.941] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.941] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.942] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.942] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.943] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.943] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.943] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.943] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.944] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.944] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.944] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.944] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.945] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.945] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.946] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.946] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.947] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.947] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.947] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.948] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.948] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.948] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.949] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.950] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.950] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.950] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.951] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.952] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.952] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.952] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.953] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.953] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.953] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.953] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.954] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.954] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.955] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.955] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.956] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.956] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.956] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.957] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/BackgroundOrbs'
+  4 | import InputPanel from "./components/InputPanel";
+  5 | import ResultsPanel from "./components/ResultsPanel";
+> 6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |   const [captions, setCaptions] = useState<string[]>([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.957] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.957] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.957] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.957] Server  ERROR   ⨯ ./app/page.tsx:4:1
+Module not found: Can't resolve './components/InputPanel'
+  2 |
+  3 | import { useState } from "react";
+> 4 | import InputPanel from "./components/InputPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import ResultsPanel from "./components/ResultsPanel";
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.958] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.958] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.958] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.958] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve './components/ResultsPanel'
+  3 | import { useState } from "react";
+  4 | import InputPanel from "./components/InputPanel";
+> 5 | import ResultsPanel from "./components/ResultsPanel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import BackgroundOrbs from "./components/BackgroundOrbs";
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:15:53.959] Server  LOG     ✓ Compiled in 42ms
+[77:16:31.223] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.224] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.242] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.246] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.247] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.248] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.250] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.251] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.309] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.310] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.311] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.311] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.311] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.312] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.312] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.313] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.313] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.313] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.314] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.314] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.314] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.315] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.315] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.315] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.316] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.316] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.316] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.317] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.317] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.317] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.318] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.322] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:16:31.323] Server  LOG     ✓ Compiled in 130ms
+[77:17:24.379] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.379] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.379] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.380] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.495] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.496] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.497] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.497] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.520] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.521] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.522] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.523] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.524] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.524] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.525] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.525] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:17:24.558] Server  LOG     ✓ Compiled in 401ms
+[77:19:08.237] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.239] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.239] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.240] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.241] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.242] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.242] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.243] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.244] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.244] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.245] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:19:08.246] Server  ERROR   ⨯ ./app/components/ResultsPanel.tsx:1:1
+Module not found: Can't resolve './CaptionCard'
+> 1 | import CaptionCard from "./CaptionCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import HashtagCard from "./HashtagCard";
+  3 |
+  4 | interface Props {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ResultsPanel.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ResultsPanel.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[77:26:14.683] Server  LOG     ✓ Compiled in 23ms
